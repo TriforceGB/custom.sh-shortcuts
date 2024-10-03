@@ -1,8 +1,10 @@
+#bash-alias.sh
 #these are alias I add to my .bashrc file
+source /home/rems006/Github/custom.sh-shortcuts
 
-alias stp="arduino-cli monitor -p /dev/ttyUSB0 -b arduino:avr:nano"
-alias st1="arduino-cli monitor -p /dev/ttyUSB2 -b arduino:avr:nano"
-alias st2="arduino-cli monitor -p /dev/ttyUSB1 -b arduino:avr:nano"
+alias stp="arduino-cli monitor -p /dev/${Secondary}-1 -b arduino:avr:nano"
+alias st1="arduino-cli monitor -p /dev/${Secondary-1} -b arduino:avr:nano"
+alias st2="arduino-cli monitor -p /dev/${Secondary-2} -b arduino:avr:nano"
 
 alias up="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Primary.sh"
 alias u1="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Secondary-1.sh"
