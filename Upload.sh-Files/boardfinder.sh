@@ -1,3 +1,4 @@
+#boardfinder.sh
 echo doing git pull
 cd /home/rems006/Github/rems006-Arduino/Board-Finder
 git reset --hard HEAD
