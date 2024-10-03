@@ -8,3 +8,6 @@ alias up="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Primary.sh"
 alias u1="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Secondary-1.sh"
 alias u2="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Secondary-2.sh"
 alias ua="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/All.sh"
+
+
+alias boardfinder="/home/rems006/Github/custom.sh-shortcuts/boardfinder.sh"
