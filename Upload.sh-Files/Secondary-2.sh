@@ -1,5 +1,5 @@
 # Secondary-2.sh
-source ../USB-ID.sh
+source /home/rems006/Github/custom.sh-shortcuts/USB-ID.sh
 
 
 echo doing git pull
