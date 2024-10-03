@@ -13,7 +13,3 @@ alias ua="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/All.sh"
 
 
 alias boardfinder="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/boardfinder.sh"
-
-echo ${Primary}
-echo ${Secondary1}
-echo ${Secondary2}
