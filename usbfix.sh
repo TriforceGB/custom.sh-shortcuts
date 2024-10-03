@@ -9,9 +9,9 @@ git pull
 
 echo "updating alias"
 # Unalias stp, st1, and st2
-unalias stp 2>/dev/null
-unalias st1 2>/dev/null
-unalias st2 2>/dev/null
+unalias stp 
+unalias st1 
+unalias st2 
 
 
 /home/rems006/Github/custom.sh-shortcuts/bash-alias.sh 
