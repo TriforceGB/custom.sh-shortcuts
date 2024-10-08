@@ -1,4 +1,4 @@
-cd ~/Github/rems05/
+cd ~/Github/Rems005/
 git add .
 git commit -m "sh upload"
 git push -u origin main
