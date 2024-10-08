@@ -8,9 +8,11 @@ git fetch --all
 git reset --hard origin/main
 
 echo running .ino
+echo --------------
 echo Primary OFF
 echo Secondary-1 ON
 echo Secondary-2 Blinking
+echo --------------
 cd Primary
 arduino-cli compile --fqbn arduino:avr:nano Primary.ino
 arduino-cli upload -p/dev/${Primary} --fqbn arduino:avr:nano Primary.ino
