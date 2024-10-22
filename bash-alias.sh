@@ -8,7 +8,7 @@ alias st1="arduino-cli monitor -p /dev/${Secondary1} -b arduino:avr:nano"
 alias st2="arduino-cli monitor -p /dev/${Secondary2} -b arduino:avr:nano"
 
 alias up="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Primary.sh"
-alias upn="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Primary.sh"
+alias upn="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/PrimaryNew.sh"
 alias u1="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Secondary-1.sh"
 alias u2="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Secondary-2.sh"
 alias ua="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/All.sh"
