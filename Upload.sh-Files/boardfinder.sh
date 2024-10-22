@@ -15,7 +15,7 @@ arduino-cli upload -p/dev/${Primary} --fqbn arduino:avr:nano Primary.ino
 cd ..
 cd PrimaryNew
 arduino-cli compile --fqbn arduino:avr:nano Primary.ino
-arduino-cli upload -p/dev/${PrimaryNew} --fqbn arduino:avr:nano Primary.ino
+arduino-cli upload -p/dev/${PrimaryNew} --fqbn arduino:avr:nano PrimaryNew.ino
 cd ..
 cd Secondary-1
 arduino-cli compile --fqbn arduino:avr:nano Secondary-1.ino
