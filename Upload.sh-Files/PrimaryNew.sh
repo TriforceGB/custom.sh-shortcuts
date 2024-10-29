@@ -10,5 +10,5 @@ git reset --hard origin/main
 echo running .ino
 cd Primary
 arduino-cli compile --fqbn arduino:avr:nano Primary.ino
-arduino-cli upload -p/dev/${PrimaryNew} --fqbn arduino:avr:nano Primary.ino
+arduino-cli upload -p/dev/${W5500} --fqbn arduino:avr:nano Primary.ino
 
