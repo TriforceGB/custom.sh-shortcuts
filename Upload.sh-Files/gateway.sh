@@ -8,7 +8,7 @@ git fetch --all
 git reset --hard origin/main
 
 echo running .ino
-cd Primary
-arduino-cli compile --fqbn arduino:avr:nano Primary.ino
-arduino-cli upload -p/dev/${W5500} --fqbn arduino:avr:nano Primary.ino
+cd gateway
+arduino-cli compile --fqbn arduino:avr:nano gateway.ino
+arduino-cli upload -p/dev/${Primary} --fqbn arduino:avr:nano gateway.ino
 
