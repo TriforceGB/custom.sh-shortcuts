@@ -1,4 +1,4 @@
 # USB-ID.sh
-Primary="ttyUSB0"
-Secondary1="ttyUSB2"
-Secondary2="ttyUSB3"
+Primary="ttyUSB3"
+Secondary1="ttyUSB0"
+Secondary2="ttyUSB2"
