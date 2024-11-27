@@ -11,4 +11,4 @@ git reset --hard origin/main
 echo running .ino
 cd Secondary
 arduino-cli compile --fqbn arduino:avr:nano Secondary.ino
-arduino-cli upload -p/dev/${Secondary2} --fqbn arduino:avr:nano Secondary.ino
+arduino-cli upload -p/dev/${Secondary4} --fqbn arduino:avr:nano Secondary.ino
