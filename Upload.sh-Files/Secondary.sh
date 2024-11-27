@@ -1,4 +1,4 @@
-# Secondary-2.sh
+# Secondary.sh
 source /home/rems006/Github/custom.sh-shortcuts/USB-ID.sh
 
 
