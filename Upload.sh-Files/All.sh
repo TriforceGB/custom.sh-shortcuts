@@ -12,10 +12,20 @@ cd Primary
 arduino-cli compile --fqbn arduino:avr:nano Primary.ino
 arduino-cli upload -p/dev/${Primary} --fqbn arduino:avr:nano Primary.ino
 cd ..
-cd Secondary
-arduino-cli compile --fqbn arduino:avr:nano Secondary.ino
-arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary.ino
-arduino-cli upload -p/dev/${Secondary2} --fqbn arduino:avr:nano Secondary.ino
-arduino-cli upload -p/dev/${Secondary3} --fqbn arduino:avr:nano Secondary.ino
-arduino-cli upload -p/dev/${Secondary4} --fqbn arduino:avr:nano Secondary.ino
+cd Secondary-1
+arduino-cli compile --fqbn arduino:avr:nano Secondary-1.ino
+arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-1.ino
+cd ..
+cd Secondary-2
+arduino-cli compile --fqbn arduino:avr:nano Secondary-2.ino
+arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-2.ino
+cd ..
+cd Secondary-3
+arduino-cli compile --fqbn arduino:avr:nano Secondary-3.ino
+arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-3.ino
+cd ..
+cd Secondary-4
+arduino-cli compile --fqbn arduino:avr:nano Secondary-4.ino
+arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-4.ino
+cd ..
 

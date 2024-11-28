@@ -9,6 +9,6 @@ git fetch --all
 git reset --hard origin/main
 
 echo running .ino
-cd Secondary
-arduino-cli compile --fqbn arduino:avr:nano Secondary.ino
-arduino-cli upload -p/dev/${Secondary2} --fqbn arduino:avr:nano Secondary.ino
+cd Secondary-2
+arduino-cli compile --fqbn arduino:avr:nano Secondary-2.ino
+arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-2.ino
