@@ -18,14 +18,14 @@ arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-1.ino
 cd ..
 cd Secondary-2
 arduino-cli compile --fqbn arduino:avr:nano Secondary-2.ino
-arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-2.ino
+arduino-cli upload -p/dev/${Secondary2} --fqbn arduino:avr:nano Secondary-2.ino
 cd ..
 cd Secondary-3
 arduino-cli compile --fqbn arduino:avr:nano Secondary-3.ino
-arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-3.ino
+arduino-cli upload -p/dev/${Secondary3} --fqbn arduino:avr:nano Secondary-3.ino
 cd ..
 cd Secondary-4
 arduino-cli compile --fqbn arduino:avr:nano Secondary-4.ino
-arduino-cli upload -p/dev/${Secondary1} --fqbn arduino:avr:nano Secondary-4.ino
+arduino-cli upload -p/dev/${Secondary4} --fqbn arduino:avr:nano Secondary-4.ino
 cd ..
 
