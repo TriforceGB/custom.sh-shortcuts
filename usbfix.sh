@@ -1,21 +1,22 @@
+#!/bin/bash
 #usbfix.sh 
 
-#Move this out of the repo to use
+#Bascially Just a Git pull to the custom.sh repo
+
+# Move this out of the repo to use 
+# Don't know if this is necessary but just to be safe
 
 echo "doing git pull"
 cd /home/rems006/Github/custom.sh-shortcuts/
 
 git pull
 
-echo "make new terminal for changes"
+echo "make new terminal for changes?"
 # echo "updating alias"
 
-# source ~/.bashrc  # so I can unalias?
+source ~/.bashrc  # so I can unalias?
 
-# # Unalias stp, st1, and st2
-# unalias stp 
-# unalias st1 
-# unalias st2 
+cat /home/rems006/Github/custom.sh-shortcuts/USB-ID.sh
 
 
 # /home/rems006/Github/custom.sh-shortcuts/bash-alias.sh 

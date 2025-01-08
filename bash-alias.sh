@@ -1,5 +1,5 @@
 #bash-alias.sh
-#these are alias I add to my .bashrc file
+#these are alias I add to my .bashrc file 
 source /home/rems006/Github/custom.sh-shortcuts/USB-ID.sh
 
 alias stp="arduino-cli monitor -p /dev/${Primary} -b arduino:avr:nano"

@@ -1,3 +1,7 @@
+#!/bin/bash
+
+#Basiclly just a simple git push shortcuts
+
 cd ~/Github/rems07/
 git add .
 git commit -m "sh upload"
