@@ -11,13 +11,6 @@ cd /home/rems006/Github/custom.sh-shortcuts/
 
 git pull
 
-echo "make new terminal for changes?"
-# echo "updating alias"
 
-source ~/.bashrc  # so I can unalias?
-
-cat /home/rems006/Github/custom.sh-shortcuts/USB-ID.sh
-
-
-# /home/rems006/Github/custom.sh-shortcuts/bash-alias.sh 
-
+echo "make new terminal for changes"
+# for some reason can't run source .~/bashrc and I don't feel like spending a hour trying to figure out why
