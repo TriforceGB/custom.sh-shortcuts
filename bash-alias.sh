@@ -17,5 +17,4 @@ alias us="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/Secondary.sh"
 alias ua="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/All.sh"
 
 alias boardfinder="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/boardfinder.sh"
-alias gateway="/home/rems006/Github/custom.sh-shortcuts/Upload.sh-Files/gateway.sh"
 alias usbfix="/home/rems006/Github/usbfix.sh"
